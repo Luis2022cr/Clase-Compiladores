@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { IoBrowsersOutline, IoCalculatorOutline, IoTerminal } from "react-icons/io5"
 import { SidebarMenuItem } from './SidebarMenuItem'
+import { Gi3DGlasses, GiDragonBalls } from 'react-icons/gi';
 
 const menuItems = [
     {
@@ -15,6 +16,12 @@ const menuItems = [
         icon: <IoCalculatorOutline/>,
         title: 'Contador',
         subTitle: 'Contador client side' 
+    },
+    {
+        path: '/dashboard/dragon-ball',
+        icon: <GiDragonBalls/>,
+        title: 'Dragon Ball',
+        subTitle: 'Character {statics}' 
     }
 ];
 
